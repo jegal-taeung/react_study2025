@@ -1,0 +1,55 @@
+#container {
+    box-sizing: content-box;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid rgb(63, 63, 63);
+    border-radius: 10px;
+    justify-self: center;
+}
+#contents {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btnThrow, .btnReset {
+    width: 80px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
+.btnThrow {
+    background-color: rgb(219, 219, 219);
+}
+.btnThrow:hover {
+    background-color: rgb(210, 210, 210);
+}
+.btnThrow:active {
+    background-color: rgb(180, 180, 180);
+}
+.btnReset {
+    background-color: rgb(240, 104, 104);
+}
+.btnReset:hover {
+    background-color: rgb(212, 77, 77);
+}
+.btnReset:active {
+    background-color: rgb(156, 75, 79);
+}
+p {
+    text-align: center;
+    font-size: 1.2em;
+}
+.btnClass {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+
+}

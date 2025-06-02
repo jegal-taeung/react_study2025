@@ -1,0 +1,36 @@
+.container{
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+<<<<<<< HEAD:02.component/src/App.css
+.team-info > h4{
+    margin: 0;
+}
+
+.like {
+    margin-left: 30%;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    
+}
+
+img:hover {
+    transition: all 0.4s linear;
+    transform: scale(1.4);
+=======
+.board-area{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+>>>>>>> 6ee78106b310579f526bf76a867f014ab03869bd:team_dice/dice-app_SMW/src/App.css
+}
