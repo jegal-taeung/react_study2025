@@ -4,6 +4,9 @@ import './App.css'
 import Menubox from './components/Menubox'
 import MemberInfo from './components/MemberInfo'
 import Count from './components/Count'
+import LikeCount from './components/LikeCount'
+import LikeCount2 from './components/LikeCount2'
+import BattleNumber from './components/BattleNumber'
 /*
   1. Component(컴포넌트)
   - UI를 표현하는 최소 단위
@@ -32,8 +35,16 @@ function App() {
         <MemberInfo team="KIA 타이거즈" name="강동근"/>
         <MemberInfo team="KIA 타이거즈" name="강동근"/>
       </div> */}
-     <Count></Count>
+     {/* <Count></Count> */}
     
+    {/* state실습 */}
+    {/* <LikeCount></LikeCount> */}
+
+    {/* state 실습3 */}
+    {/* <LikeCount2></LikeCount2> */}
+
+    {/* state실습 4 */}
+    <BattleNumber/>
     </>
   )
 }

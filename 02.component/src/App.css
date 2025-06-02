@@ -18,3 +18,17 @@
 .team-info > h4{
     margin: 0;
 }
+
+.like {
+    margin-left: 30%;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    
+}
+
+img:hover {
+    transition: all 0.4s linear;
+    transform: scale(1.4);
+}
