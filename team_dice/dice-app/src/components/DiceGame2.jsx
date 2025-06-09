@@ -46,6 +46,10 @@ const DiceGame = () => {
 
     const[user,setUser] = useState({abc,abc2,abc3});
     // ...(전개연산자)
+    // ex) let user = {imgPath:"~", score:0}
+    //      console.log(...user);
+    //      출력) imgPath:"~", score:0
+    //      변경) imgPath:"새로운 경로", score:0
     setUser({...user,
       abc : 123,
       abc2 : 1234
